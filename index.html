@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="icon" type="icon" href="/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+    
+    <script type="text/javascript" src="sound.js"></script>
+  <link rel="stylesheet" href="./assets/index.bb4c4251.css">
+</head>
+<body class="xl:bg-sky-200  bg-gray-300">
+    <div class="hidden xl:block">
+    <div class="bg-black text-white rounded-b-lg">
+        <nav>
+            <ul class="flex">
+                <li><img class="h-14 rounded-full mx-5 my-3 " src="https://frost2204.github.io/My-Website/profile.jpg"></li>
+                <li class="justify-end ml-auto mr-5 my-auto">Thanks For Playing</li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <h1 class="text-6xl text-center mt-5">Play here</h1>
+    </div>
+    <div class="mt-9">
+        <ul class="flex justify-center">
+            <li><button id="a" value="sound" onclick="playMusic('A')"  class="h-96 w-20 bg-white  hover:bg-slate-200 my-3 rounded-3xl">A</button></li>
+            <li><button id="s" value="sound" onclick="playMusic('S')"  class="h-72 w-20 bg-black hover:bg-slate-800 my-3 ml-9 rounded-3xl text-white">S</button></li>
+            <li><button id="d" value="sound" onclick="playMusic('D')"  class="h-96 w-20 bg-white hover:bg-slate-200 my-3 ml-9 rounded-3xl">D</button></li>
+            <li><button id="f" value="sound" onclick="playMusic('F')"  class="h-72 w-20 bg-black hover:bg-slate-800 my-3 ml-9 rounded-3xl text-white">F</button></li>
+            <li><button id="g" value="sound" onclick="playMusic('G')"  class="h-96 w-20 bg-white hover:bg-slate-200 my-3 ml-9 rounded-3xl">G</button></li>
+            <li><button id="h" value="sound" onclick="playMusic('H')"  class="h-72 w-20 bg-black hover:bg-slate-800 my-3 ml-9 rounded-3xl text-white">H</button></li>
+            <li><button id="j" value="sound" onclick="playMusic('J')"  class="h-96 w-20 bg-white hover:bg-slate-200 my-3 ml-9 rounded-3xl">J</button></li>
+            <li><button id="k" value="sound" onclick="playMusic('K')"  class="h-72 w-20 bg-black hover:bg-slate-800 my-3 ml-9 rounded-3xl text-white">K</button></li>
+            <li><button id="l" value="sound" onclick="playMusic('L')"  class="h-96 w-20 bg-white hover:bg-slate-200 my-3 ml-9 rounded-3xl">L</button></li>
+            <li><button id="l1" value="sound" onclick="playMusic(';')"  class="h-72 w-20 bg-black hover:bg-slate-800 my-3 ml-9 rounded-3xl text-white">;</button></li>
+            <li><button id="l2" value="sound" onclick="playMusic(`'`)"  class="h-96 w-20 bg-white hover:bg-slate-200 my-3 ml-9 rounded-3xl">'</button></li>
+        </ul>
+    </div>
+    <div>
+        <h2 class="text-center my-5 text-lg">Please On CapsLock To use Keyboard</h2>
+        <hr class="mx-auto bg-slate-500 w-[40%] h-1 my-5">
+    </div>
+    <div class="bg-black text-center mb-0  rounded-t-xl">
+        <ul class="flex justify-center">
+            <li class="h-auto w-10 py-9 mx-2"><a href="https://www.facebook.com/profile.php?id=100008680326611"><img class="rounded-full" src="https://media.giphy.com/media/XEy1qyv7GdLpmqHEPV/giphy.gif"></a></li>
+            <li class="h-auto w-10 py-9 mx-2"><a href="https://www.instagram.com/nikunj_ranjan_/"><img class="rounded-full" src="https://media.giphy.com/media/3o7bu7wtT19WfBAt0Y/giphy.gif"></a></li>
+            <li class="h-auto w-10 py-9 mx-2"><a href="https://www.linkedin.com/in/nikunj-ranjan-668696177/"><img class="rounded-full" src="https://cliply.co/wp-content/uploads/2021/02/372102050_LINKEDIN_ICON_400px.gif"></a></li>
+            <li class="h-auto w-10 py-9 mx-2"><a href="https://github.com/Frost2204"><img class="rounded-full" src="https://camo.githubusercontent.com/0cad3f969b0946abd0e5f16e9ed1ff78a2495a40c2bb5c6414aefd4be76505aa/68747470733a2f2f692e67697068792e636f6d2f6d656469612f4b7a4a6b7a6a676766474e355079366e6b542f3230302e77656270"></a></li>
+        </ul>
+        <span class="text-white">@Nikunj Ranjan</span>
+    </div>
+</div>
+
+<!-- ---------------------------------------------------------------------------------------------------------------------- -->
+
+
+<div class="xl:hidden">
+    <div class="bg-black text-white rounded-b-xl">
+        <nav>
+            <ul class="flex">
+                <li><img class="h-14 rounded-full mx-5 my-3 " src="https://frost2204.github.io/My-Website/profile.jpg"></li>
+                <li class="justify-end ml-auto mr-5 my-auto">Thanks For Playing</li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="mt-9">
+        <ul class=" justify-center">
+            <li><button value="sound" onclick="playMusic('A')"  class="h-10 w-[70%] bg-white hover:bg-slate-200 my-1 ml-9 rounded-3xl md:h-16"></button></li>
+            <li><button value="sound" onclick="playMusic('S')"  class="h-10 w-[60%] bg-black hover:bg-slate-800 my-1 ml-9 rounded-3xl md:h-16 text-white"></button></li>
+            <li><button value="sound" onclick="playMusic('D')"  class="h-10 w-[70%] bg-white hover:bg-slate-200 my-1 ml-9 rounded-3xl md:h-16"></button></li>
+            <li><button value="sound" onclick="playMusic('F')"  class="h-10 w-[60%] bg-black hover:bg-slate-800 my-1 ml-9 rounded-3xl md:h-16 text-white"></button></li>
+            <li><button value="sound" onclick="playMusic('G')"  class="h-10 w-[70%] bg-white hover:bg-slate-200 my-1 ml-9 rounded-3xl md:h-16"></button></li>
+            <li><button value="sound" onclick="playMusic('H')"  class="h-10 w-[60%] bg-black hover:bg-slate-800 my-1 ml-9 rounded-3xl md:h-16 text-white"></button></li>
+            <li><button value="sound" onclick="playMusic('J')"  class="h-10 w-[70%] bg-white hover:bg-slate-200 my-1 ml-9 rounded-3xl md:h-16"></button></li>
+            <li><button value="sound" onclick="playMusic('K')"  class="h-10 w-[60%] bg-black hover:bg-slate-800 my-1 ml-9 rounded-3xl md:h-16 text-white"></button></li>
+            <li><button value="sound" onclick="playMusic('L')"  class="h-10 w-[70%] bg-white hover:bg-slate-200 my-1 ml-9 rounded-3xl md:h-16"></button></li>
+            <li><button value="sound" onclick="playMusic(';')"  class="h-10 w-[60%] bg-black hover:bg-slate-800 my-1 ml-9 rounded-3xl md:h-16 text-white"></button></li>
+            <li><button value="sound" onclick="playMusic(`'`)"  class="h-10 w-[70%] bg-white hover:bg-slate-200 my-1 ml-9 rounded-3xl md:h-16"></button></li>
+        </ul>
+    </div>
+    <div>
+        <hr class="mx-auto bg-slate-500 w-[40%] h-1 my-5">
+    </div>
+    <div class="bg-black text-center mb-0  rounded-t-xl">
+        <ul class="flex justify-center">
+            <li class="h-auto w-10 py-9 mx-2"><a href="https://www.facebook.com/profile.php?id=100008680326611"><img class="rounded-full" src="https://media.giphy.com/media/XEy1qyv7GdLpmqHEPV/giphy.gif"></a></li>
+            <li class="h-auto w-10 py-9 mx-2"><a href="https://www.instagram.com/nikunj_ranjan_/"><img class="rounded-full" src="https://media.giphy.com/media/3o7bu7wtT19WfBAt0Y/giphy.gif"></a></li>
+            <li class="h-auto w-10 py-9 mx-2"><a href="https://www.linkedin.com/in/nikunj-ranjan-668696177/"><img class="rounded-full" src="https://cliply.co/wp-content/uploads/2021/02/372102050_LINKEDIN_ICON_400px.gif"></a></li>
+            <li class="h-auto w-10 py-9 mx-2"><a href="https://github.com/Frost2204"><img class="rounded-full" src="https://camo.githubusercontent.com/0cad3f969b0946abd0e5f16e9ed1ff78a2495a40c2bb5c6414aefd4be76505aa/68747470733a2f2f692e67697068792e636f6d2f6d656469612f4b7a4a6b7a6a676766474e355079366e6b542f3230302e77656270"></a></li>
+        </ul>
+        <span class="text-white">@Nikunj Ranjan</span>
+    </div>
+</div>
+</body>
+
+</html>
